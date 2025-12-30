@@ -1,0 +1,44 @@
+
+li:hover {
+  color: #6A1E55;
+  cursor: pointer;
+}
+
+li a{
+  color: #fff;
+  font-family: 'Roboto', Times, serif;
+  font-size: medium;
+}
+
+#user 
+{
+  color: #fff;
+  font-family: 'Roboto', Times, serif;
+  font-size: medium;
+}
+
+.container {
+    --bs-bg-opacity: 1;
+    background-color: #3B1C32;
+}
+
+.nav-item {
+  color: #fff;
+  padding: 20px;
+}
+
+body {
+   min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.navbar
+{
+    --bs-bg-opacity: 0.3;
+    background-color: #3B1C32;;
+}
+
+.icon {
+  color: #fff;
+}

@@ -1,0 +1,136 @@
+/* 
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-image: linear-gradient(#3B1C32, #1A1A1D);
+  /* background-color: linear(); 
+}
+
+.NavBarClass {
+  width: 100%;
+  display: flex;
+  background-color: transparent;
+  justify-items: space-between;
+} */
+
+li a{
+  color: #fff;
+  font-family: 'Roboto', Times, serif;
+  font-size: medium;
+}
+
+#user 
+{
+  color: #fff;
+  font-family: 'Roboto', Times, serif;
+  font-size: medium;
+}
+
+.container {
+    --bs-bg-opacity: 1;
+    background-color: #3B1C32;
+}
+
+/* .container-sm
+{
+  width: 30px;
+  height: 30px;
+} */
+
+#image
+{
+  /* padding: 200px; */
+  /* padding-left: 200px; */
+  height: 320px;
+  width: 320px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 5px 5px #1A1A1D;
+  /* background-color: ; */
+}
+
+p 
+{
+  color :#1A1A1D;
+  font-family: 'Roboto', sans-serif;
+}
+
+#le-moi
+{
+  font-size: 30px;
+  font-weight: 200;
+  color: #fff;
+  padding-bottom: 2px;
+}
+
+#InfoAboutMe
+{
+  color: #fff;
+  font-size: large;
+}
+
+#myButton{
+  background-color: #6A1E55;
+  color: #1A1A1D;
+  font-weight: bold;
+  border: 0;
+}
+
+#myButton:hover
+{
+  background-color: #1A1A1D;
+  color: #6A1E55;
+}
+
+.buttonDiv
+{
+  padding-top: 30px;
+}
+
+.divIntroduction
+{
+  padding-top:300px;
+  padding-left: 60px;
+}
+
+#imageDiv
+{
+  padding-left: 200px;
+  padding-top: 200px;
+}
+
+.nav-item {
+  color: #fff;
+  padding: 20px;
+}
+
+body {
+   min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.navbar
+{
+    --bs-bg-opacity: 0.3;
+    background-color: #3B1C32;;
+}
+
+.icon {
+  color: #fff;
+}
+
+.HeroPage
+{
+  flex: 1;
+  display: flex;
+  background-image: linear-gradient(to bottom, #3B1C32 , #1A1A1D);
+}
+
+li:hover {
+  color: #6A1E55;
+  cursor: pointer;
+}
