@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import './App.css'
 import HeroPage from './components/HeroPage'
 import AboutME from './components/AboutMe/AboutMe'
+import Links from './components/Links/Links'
 
 
 
@@ -16,6 +17,7 @@ export default function Zab()
   return (<><NavBar setpage={setpage}/>
     {page == "Home" && <HeroPage />}
     {page == "Aboutme" && <AboutME />}
+    {page == "Links" && <Links />}
     </>
   )
 }

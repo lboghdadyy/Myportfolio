@@ -89,14 +89,73 @@ p
 {
   width: 40px;
   height: 40px;
-  border: 4px #fff solid;
+  /* border: 4px #fff solid; */
   /* padding-right: 5px; */
   border-radius: 50%;
+}
+
+#links
+{
+    flex: 1;
+  padding: 60px;
+  background-image: linear-gradient(to bottom, #3B1C32 , #1A1A1D);
+  
+}
+
+.linkimg
+{
+  padding: 30px;
+}
+
+#liiink
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.LinkIcon
+{
+  width: 80px;
+  height: 80px;
+}
+
+#gitgit
+{
+  padding-right: 10px;
+}
+
+
+div#linkimg
+{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.LIcon
+{
+  width: 50px;
+  height: 50px;
 }
 
 .buttonDiv
 {
   padding-top: 30px;
+}
+
+
+.URLlinks
+{
+  /* justify-content: center; */
+  display: flex;
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover
+  {
+    color: #6A1E55;
+  }
+  align-items: center;
 }
 
 .divIntroduction
@@ -109,6 +168,11 @@ p
 {
   padding-left: 200px;
   padding-top: 100px;
+}
+
+.LinkedIN
+{
+  padding-right: 20px;
 }
 
 .nav-item {
