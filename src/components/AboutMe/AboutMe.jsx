@@ -2,17 +2,18 @@ import React from "react";
 
 export default function AboutME()
 {
-    return <>
-        <div className="title">
-            <h1>SOUFIANE BAGHDADI</h1>/<h2>Resume</h2>      
+    return <div id="AboutME">
+        <div id="title">
+            <h2>SOUFIANE BAGHDADI / Resume</h2>      
         </div>
-        <p className="paragraph">
-            Hello there, My name is SOUFIANE BAGHDADI  I am a software engineer I did complete two years at private center in my hometown during 2022 to 2024.
-            during these two years I have learned several skills that were improved and increased during my two years at 1337 CODING SCHOOL,  the following skills 
-            are mentioned in the ABOUT ME section. also in these two years I have experienced a month internship at ORMVAT  (OFFICE RÉGIONAL DE MISE EN VALEUR AGRICOLE DU TADLA FKIH BEN SALAH)  in this month I was able to build a website using the basic tools. ext || Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-            Where can I get some?
-            Therer
+        <p id="paragraph">
+            Hello there, my name is Soufiane Baghdadi, and I am a software engineer. I completed two years of study at a private training center in my hometown between 2022 and 2024. During this period, I acquired several foundational skills that were further strengthened and expanded throughout my studies at 1337 Coding School (42 Network).
+
+Over these two years, I developed strong problem-solving abilities and solid programming fundamentals. The technical skills I gained are detailed in the About Me section.
+
+In addition, I completed a one-month internship at ORMVAT (Office Régional de Mise en Valeur Agricole du Tadla – Fkih Ben Salah). During this internship, I built a website using basic web development tools and applied my knowledge in a real-world professional environment.
+
+At 1337 Coding School, I worked on multiple projects within the 42 curriculum, progressing up to the cub3D project and completing the corresponding circle. In my most recent internship, I focused on Laravel, where I learned backend development concepts and successfully built my PFE (Final Year Project) using this framework.
         </p>
-        </>;
+        </div>;
 }

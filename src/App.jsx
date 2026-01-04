@@ -3,10 +3,19 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import NavBar from './components/NavBar'
 import './App.css'
+import HeroPage from './components/HeroPage'
+import AboutME from './components/AboutMe/AboutMe'
+
+
 
 export default function Zab() 
 {
-  return (
-          <NavBar />
+
+  const [page, setpage] = useState("Home");
+
+  return (<><NavBar setpage={setpage}/>
+    {page == "Home" && <HeroPage />}
+    {page == "Aboutme" && <AboutME />}
+    </>
   )
 }

@@ -85,6 +85,15 @@ p
   color: #6A1E55;
 }
 
+#iconPic
+{
+  width: 40px;
+  height: 40px;
+  border: 4px #fff solid;
+  /* padding-right: 5px; */
+  border-radius: 50%;
+}
+
 .buttonDiv
 {
   padding-top: 30px;
@@ -92,14 +101,14 @@ p
 
 .divIntroduction
 {
-  padding-top:300px;
+  padding-top:150px;
   padding-left: 60px;
 }
 
 #imageDiv
 {
   padding-left: 200px;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .nav-item {
@@ -110,6 +119,10 @@ p
 body {
    min-height: 100vh;
   display: grid;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* flex: 1; */
   grid-template-rows: auto 1fr;
 }
 
@@ -119,8 +132,27 @@ body {
     background-color: #3B1C32;;
 }
 
+.navlink {
+  color : #fff;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  color: #1A1A1D;
+  .icon {
+    color: #1A1A1D;
+  }
+}
+
 .icon {
   color: #fff;
+}
+
+#root
+{
+  display: contents;
+  height: 100%;
+  /* height: 2000px; */
 }
 
 .HeroPage
@@ -128,6 +160,23 @@ body {
   flex: 1;
   display: flex;
   background-image: linear-gradient(to bottom, #3B1C32 , #1A1A1D);
+}
+
+#AboutME 
+{
+  flex: 1;
+  padding: 80px;
+  background-image: linear-gradient(to bottom, #3B1C32 , #1A1A1D);
+  #paragraph 
+  {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #title 
+  {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 }
 
 li:hover {
